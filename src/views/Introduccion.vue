@@ -5,8 +5,9 @@
   
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span
-          i.fas.fa-info
+        .texto-info-intro
+          span
+            i.fas.fa-info
       h1 Introducción
 
     .row.container.justify-content-around.align-items-center

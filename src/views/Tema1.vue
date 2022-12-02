@@ -370,7 +370,7 @@ export default {
         //titulo:
         //  'Never, never assume that what you have achieved is good enough',
         texto:
-          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+          'Por lo tanto, la construcción de un futuro sostenible donde primen la seguridad territorial y los intereses colectivos, así como los derechos de la comunidad, debe darse mediante el desarrollo de los procesos de GRD en la formulación, ejecución, valoración y análisis de las herramientas de desarrollo como lo son los planes territoriales, ya sean de salud, educación, ambiente, infraestructura, recreación, deporte, cultura, economía, desarrollo social y territorial; planes que en últimas contribuyen a la seguridad y el mejoramiento de la vida humana.',
         imagen: require('@/assets/curso/temas/img6-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

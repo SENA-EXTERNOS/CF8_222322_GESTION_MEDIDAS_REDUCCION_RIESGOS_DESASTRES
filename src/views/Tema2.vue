@@ -14,7 +14,7 @@
         
         .col-4
             figure
-              img(data-aos="fade-up")(src="@/assets/curso/temas/img1-rema2.png").img1-tema2
+              img(data-aos="fade-up")(src="@/assets/curso/temas/ing1-corr-tema2.png").img1-tema2
 
         .col-8.color-fondo-tarj1.tarjeta
             .row 
@@ -50,7 +50,10 @@
       br
       
       p En relación con los escenarios de riesgo, es importante identificar las metodologías de caracterización y priorización, tal como se presenta a continuación:
-
+      
+      figure
+          img(src="@/assets/curso/temas/img-izq-tema2.png", alt="alt").img-izq-tema2
+      
       .bg--img_03
           .row.justify-content-center.mb-4
             
@@ -150,7 +153,7 @@
               //.h5.mb-2 titulo
               p ¿El municipio cuenta con herramientas y capacidades técnicas clave para la gestión del riesgo?
         
-        p En lo relacionado con el paso 6, se describen a continuación ejemplos de escenarios de riesgo a partir de algunos criterios definidos. Fuente: (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021)
+        p.txt-inf-pto-caliente-tema2 En lo relacionado con el paso 6, se describen a continuación ejemplos de escenarios de riesgo a partir de algunos criterios definidos. Fuente: (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021)
 
 
     br
@@ -160,7 +163,7 @@
     .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
 
         .row.fondo-tarj-conect-tema1
-            SlyderF(columnas="col-lg-6 col-xl-4")
+            SlyderF(columnas="col-lg-6 col-xl-4").bloque-slider-tarj-tema2
               .tarjeta.color-fondo-tarj-carr-tema2.p-4
                 .row.justify-content-center.mb-3
                   .col-8

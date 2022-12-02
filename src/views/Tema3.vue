@@ -146,7 +146,7 @@
         .titulo-segundo.color-primario
           h2 Medidas prospectivas
         
-        .row.fondo-medidas-correctivas
+        .row.fondo-medidas-correctivas.bloque-medidas-correctivas
           .col-lg-7
             p.txt-medidas-correctivas Una vez reconocidas las medidas correctivas, se describen a continuación las medidas prospectivas.
           
