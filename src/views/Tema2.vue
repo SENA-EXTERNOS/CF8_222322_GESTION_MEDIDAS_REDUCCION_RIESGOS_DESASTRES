@@ -63,9 +63,9 @@
                   .col-12
                     p.texto-acordeon-tema1 El artículo 39 de la Ley 1523 de 2012 contempla la integración de la gestión del riesgo de desastres en la planificación territorial y del desarrollo, con base en esto, el Programa de Naciones Unidas para el Desarrollo Colombia (PNUD) y la Unidad Nacional de Gestión del Riesgo de Desastres (UNGRD) consolidaron un instrumento técnico que sirve como directriz para la incorporación de la gestión del riesgo a nivel local: <em>la Guía metodológica para la elaboración de planes departamentales para la gestión del riesgo.</em>
 
-                .row(titulo="Lineamientos")
+                .row(titulo="Ley 1523 de 2012 - Segunda parte")
                   .col-12
-                    p.texto-acordeon-tema1 En esta directriz se instruye a las instituciones públicas acerca de los lineamientos para la identificación, ejecución y control de las acciones que los entes territoriales hacen en términos de los procesos de gestión del riesgo, teniendo como base la caracterización del territorio, 
+                    p.texto-acordeon-tema1 En esta directriz se instruye a las instituciones públicas acerca de los lineamientos para la identificación, ejecución y control de las acciones que los entes territoriales hacen en términos de los procesos de gestión del riesgo, teniendo como base la caracterización del territorio, factores y escenarios de riesgo, y actores claves para la gestión del riesgo que orientan la implementación de la Estrategia Departamental para Respuesta (Departamento Administrativo del Sistema de Prevención, Atención y Recuperación de Desastres en Antioquia, 2015). 
 
                 .row(titulo="Estrategias")
                   .col-12
@@ -102,7 +102,7 @@
 
               p(numero="6" titulo="Sexto paso") Identificar y caracterizar los escenarios de riesgo. Se identifican y analizan los escenarios de riesgo, los cuales dan una visión aproximada de los efectos de una amenaza mediante la definición de criterios de frecuencia y magnitud.
 
-        p De acuerdo con la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), en su publicación Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres se articulan seis pasos fundamentales que se deben de tener en cuenta al momento de integrar los procesos de gestión del riesgo en la planificación territorial (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021):
+        p En lo que se refiere al tercer paso, en la siguiente infografía se indican nueve preguntas que permiten realizar el autodiagnóstico.
 
     br
     br
@@ -151,9 +151,11 @@
 
             .tarjeta.fondo-color-tarj-pto-caliente.p-3(x="82%" y="10%" numero="9")
               //.h5.mb-2 titulo
-              p ¿El municipio cuenta con herramientas y capacidades técnicas clave para la gestión del riesgo?
+              p ¿El municipio cuenta con la participación activa de la comunidad y del sector privado en la gestión del riesgo de desastres?
         
-        p.txt-inf-pto-caliente-tema2 En lo relacionado con el paso 6, se describen a continuación ejemplos de escenarios de riesgo a partir de algunos criterios definidos. Fuente: (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021)
+        p.txt-inf-pto-caliente-tema2 En lo relacionado con el paso 6, se describen a continuación ejemplos de escenarios de riesgo a partir de algunos criterios definidos. 
+          br
+          | Fuente: (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021).
 
 
     br
@@ -163,7 +165,7 @@
     .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
 
         .row.fondo-tarj-conect-tema1
-            SlyderF(columnas="col-lg-6 col-xl-4").bloque-slider-tarj-tema2
+            SlyderF(columnas="col-lg-6 col-xl-4").bloque-slider-tarj-tema2  
               .tarjeta.color-fondo-tarj-carr-tema2.p-4
                 .row.justify-content-center.mb-3
                   .col-8
@@ -295,7 +297,7 @@
                 .row.justify-content-center.mb-3
                   .col-8
                     img(data-aos="flip-left")(src='@/assets/curso/temas/img8-carr-tarj-tema2.png' alt='AvatarTop')
-                h4.text-center Por operaciones de grandes obras
+                h4.text-center Escenarios de riesgo por operaciones de grandes obras
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta

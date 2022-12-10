@@ -17,12 +17,12 @@
             img(src="@/assets/curso/temas/img-actividad-didactica.png", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-primario
-          h2 Arrastrar y soltar
+          h2 Completar la frase
         p.mb-4 De acuerdo con los temas vistos en el componente formativo complete la respuesta.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Arrastrar y soltar
+              p.fw-bold.mb-0 Completar la frase
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/CF8 - T_222322_Gestión y medidas de reducción de riesgos de desastres/story.html')" target="_blank")
                 span Realizar

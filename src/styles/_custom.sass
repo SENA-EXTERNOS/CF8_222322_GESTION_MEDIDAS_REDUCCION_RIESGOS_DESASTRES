@@ -146,10 +146,11 @@
   bottom: 5em
 
 .fondo-cajon-color-tema1
-  background-color: #cdf0e4
+  position: relative
+  background-color: #caede1
 
 .acordion__activo
-  background-color: #222B5A
+  background-color:#636a8b
 
 .acordion__activo .acordion__titulo .mb-0
   color: white !important
@@ -177,28 +178,34 @@
 
 .texto-1y3-linea-temporal-tema1
   position: relative
-  width: 25%
-  right: 90%
+  right: 95%
   width: 80%
-  padding-top: 3em  
+  padding-top: 2.5em  
+  z-index: 1
+  text-align: right
+
 
 .imagenes-2y4-linea-temporal-tema1
   position: relative
   width: 25%
   left: 99%
-  padding-top: 3em  
+  padding-top: 3em
+  z-index: 1  
 
 .texto-1y4-linea-temporal-tema1
   position: relative
   width: 25%
-  left: 30%
+  left: 25%
   width: 80%
   padding-top: 3em  
 
-.linea-puntos-vert-tema1
+.linea-puntos-vert-tema1 
   position: absolute
-  left: 50%
-  border-left: 10px solid #707070
+  top: 10%
+  left: 52%
+  border-left: 3px dotted #707070
+  height: 600px
+  //#707070
 
 
 .cajol-color-simple-tema1
@@ -297,17 +304,21 @@
 .linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #c4e4e1
   color: black
+
 //TEMA3
+  
 .fondo-cajon-comillas
   position: relative
-  background-color: #dceeec
+  background-color: #cfe8fe
 
 .fa-quote-left:before
+  position: relative
+  left: -0.5em
   color: #3BC192
 
 .fa-quote-right:before  
   position: relative
-  left: 1em
+  left: 1.5em
   color: #3BC192
 
 .img-tar1-tema3
@@ -332,6 +343,7 @@
 .bloque-medidas-correctivas
   position: relative
   left: 5%
+  height: 200px
 
 .img-medidas-correctivas-tema3
   position: absolute
@@ -341,7 +353,7 @@
 
 .txt-tarj-medidas-corr
   position: relative
-  top: 2em
+  top: 4em
   right: 14%
   width: 110%
   background-color: white
@@ -357,6 +369,14 @@
 
 .txt-tarj-pest-vert-tema3
   color: white
+  
+  
+.tabs-a__content-item
+  position: relative
+  width: 400px
+  left: 25%
+  
+
 
 .img-medidas-correctivas
   position: relative
@@ -365,11 +385,11 @@
 
 .txt-medidas-correctivas
   position: relative
-  top: 50%
+  top: 30%
 
 .fondo-medidas-correctivas
   background-color:  #dceeec
-  height: 200px
+  height: 150px
   width: 1100px
 
 .tarj1-indiv-tema3
@@ -463,3 +483,27 @@
   left: 5%
   top: 2em
 
+.bloque-texto-f__texto
+  width: 110%
+
+.tabs-a__tab
+  background-color: #E8E8E8
+  width: 180%
+  
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before
+  background-color: #222B5A !important
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #222B5A !important
+ 
+  
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  color: white !important
+
+.tabs-a__tab__text
+  overflow: hidden
+  white-space: initial
+    
+.img-medidas-correctivas.aos-init.aos-animate
+  position: relative
+  bottom: 4em

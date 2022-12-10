@@ -112,7 +112,7 @@
     
       .row.bloque-tarj-avat-tema1
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.fondo-tarj-avatar-tema1.color-acento-botones.p-4
+          .tarjeta.fondo-tarj-avatar-tema1.p-4
             .row.justify-content-center.mb-3
               .col-7
                 figure
@@ -122,7 +122,7 @@
               p.text-small Comprender el riesgo de desastres.
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.fondo-tarj-avatar-tema1.color-acento-botones.p-4
+          .tarjeta.fondo-tarj-avatar-tema1.p-4
             .row.justify-content-center.mb-3
               .col-7
                 figure
@@ -132,7 +132,7 @@
               p.text-small Fortalecer la gestión del riesgo de desastres para manejar mejor el riesgo de desastres.
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0
-          .tarjeta--boton.fondo-tarj-avatar-tema1.color-acento-botones.text-white--hover.p-4
+          .tarjeta.fondo-tarj-avatar-tema1.p-4
             .row.justify-content-center.mb-3
               .col-7
                 figure
@@ -142,7 +142,7 @@
               p.text-small Invertir en la reducción del riesgo de desastres para la resiliencia.
 
         .col-sm-6.col-lg-3
-          .tarjeta--boton.fondo-tarj-avatar-tema1.color-acento-botones.p-4
+          .tarjeta.fondo-tarj-avatar-tema1.p-4
             .row.justify-content-center.mb-3
               .col-7
                 figure
@@ -158,8 +158,11 @@
     br
 
     .row.container.justify-content-around.align-items-center
-      .cajon.fondo-cajon-color-tema1.color-primario.p-4
-          p Trazado el camino a seguir, los instrumentos de planificación se constituyen como la gestión tangible del riesgo de desastres, pues aumentan las opciones de hallar una solución a las problemáticas asociadas a los desastres: la pérdida de vidas humanas, de los medios productivos y de subsistencia, así como la afectación de los bienes estructurales, socioculturales y ambientales.
+      .row
+        .col-lg-10 
+
+          .cajon.fondo-cajon-color-tema1.color-primario.p-4
+              p Trazado el camino a seguir, los instrumentos de planificación se constituyen como la gestión tangible del riesgo de desastres, pues aumentan las opciones de hallar una solución a las problemáticas asociadas a los desastres: la pérdida de vidas humanas, de los medios productivos y de subsistencia, así como la afectación de los bienes estructurales, socioculturales y ambientales.
 
     br
     br
@@ -182,11 +185,7 @@
 
                 .row(titulo="Estrategias")
                   .col-12
-                    p.texto-acordeon-tema1 Se habla entonces de estrategias integrales que vinculan las escalas territoriales y a los actores del sector público, privado y comunitario en la construcción y ejecución de una colección de procesos y componentes que tienen como finalidad mejorar la calidad de vida de las poblaciones, en especial las que se encuentran en estado de riesgo. El Plan Municipal para la Gestión del Riesgo de Desastres (PMGRD) se fundamenta como una de las herramientas más importantes del Consejo Municipal para la Gestión del Riesgo de Desastres (CMGRD)
-
-                .row(titulo="Seguir la estructura de procesos")
-                  .col-12
-                    p.texto-acordeon-tema1 Al seguir la estructura de procesos (conocimiento, reducción del riesgo y manejo de desastres) establecida en la Ley 1523 de 2012. Por lo tanto, lleva a cabo un seguimiento de las acciones que las entidades territoriales hacen en función de la gestión del riesgo de desastres.
+                    p.texto-acordeon-tema1 Se habla entonces de estrategias integrales que vinculan las escalas territoriales y a los actores del sector público, privado y comunitario en la construcción y ejecución de una colección de procesos y componentes que tienen como finalidad mejorar la calidad de vida de las poblaciones, en especial las que se encuentran en estado de riesgo. El Plan Municipal para la Gestión del Riesgo de Desastres (PMGRD) se fundamenta como una de las herramientas más importantes del Consejo Municipal para la Gestión del Riesgo de Desastres (CMGRD).
 
                 .row(titulo="Componentes del PMGRD")
                   .col-12
@@ -206,7 +205,7 @@
                   p Los POT se estipulan como un rango de visión a largo plazo mediante la consolidación de modelos de ocupación sostenibles que permitan el funcionamiento de los medios de subsistencia y la infraestructura sin crear condiciones de riesgo a futuro ni incrementar las ya existentes. Este instrumento se fundamenta en los siguientes marcos normativos: 
         
 
-        .row.bloque-linea-temporal-tema1
+        .row.container.bloque-linea-temporal-tema1
           
             //h3 revisar con linea temporal original
             .linea-puntos-vert-tema1
@@ -354,7 +353,7 @@ export default {
         //titulo:
         //  'Never, never assume that what you have achieved is good enough',
         texto:
-          'Por lo tanto, la Gestión del Riesgo de Desastres se orienta a una adecuada planeación territorial cuya característica principal es la sostenibilidad a través de tres principios que incentivan la integración de las diferentes escalas territoriales, como también de los diversos actores que intervienen en este proceso mediante los instrumentos de planificación.',
+          'Por lo tanto, la Gestión del Riesgo de Desastres se orienta a una adecuada planeación territorial cuya característica principal es la sostenibilidad a través de tres principios que incentivan la integración de las diferentes escalas territoriales, como también de los diversos actores que intervienen en este proceso mediante los instrumentos de planificación:',
         imagen: require('@/assets/curso/temas/img4-slider1-tema1.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

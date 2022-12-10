@@ -47,7 +47,7 @@
                     img(src="@/assets/curso/temas/img-medidas-correctivas-tema3.png").img-medidas-correctivas-tema3
 
             .col-lg-7
-                p.txt-tarj-medidas-corr.p-4 Uno de los procesos fundamentales de la gestión del riesgo de desastres es el que se enfoca a la reducción, la minimización y la alteración favorable de las condiciones de riesgo preestablecidas o futuras; el proceso se basa, entonces, en la prevención del riesgo. Son acciones de reducción y prevención que se diseñan y ejecutan de modo previo a la ocurrencia de un desastre, cuyo objetivo final sea la eliminación de la amenaza, la exposición y la disminución de la vulnerabilidad de las personas, los medios de subsistencia, los bienes, la infraestructura y los recursos ambientales (Unidad Nacional para la Gestión del Riesgo de Desastres, 2013).
+                p.txt-tarj-medidas-corr.p-4 Las medidas de reducción del riesgo correctivas (perspectivas, estructurales y no estructurales) se centran en minimizar los niveles de riesgos ya existentes en el espacio geográfico mediante la adopción de actividades de intervención sobre la amenaza. Esta puede deberse a factores naturales, antrópicos, tecnológicos y socionaturales; mientras un factor de riesgo, como la vulnerabilidad ―sobre los bienes y elementos expuestos― se determina por factores físicos, ambientales, económicos y sociales. 
           
     br
     br
@@ -75,8 +75,8 @@
             TabsA.color-acento-botones.mb-5    
 
               .tarjeta.fondo-tarj-pest-vert-tema3.clr-paleYellow.p-4(titulo="Intervención ante la vulnerabilidad")
-                .txt-tarj-pest-vert-tema3
-                  h4.txt-tarj-pest-vert-tema3 Intervención ante la vulnerabilidad
+                
+                  h4.txt-tarj-pest-vert-tema3 Factor de riesgo - Vulnerabilidad
                   p.txt-tarj-pest-vert-tema3 Informar y capacitar a la comunidad sobre las condiciones de riesgo presentes y futuras del territorio.
                   p.txt-tarj-pest-vert-tema3 Procesos de reubicación de infraestructura.
                   p.txt-tarj-pest-vert-tema3 Gestionar recursos para mejorar la infraestructura de las edificaciones.
@@ -86,10 +86,10 @@
 
   
               .tarjeta.fondo-tarj-pest-vert-tema3.clr-paleYellow.p-4(titulo="Intervención ante la amenaza")
-                .txt-tarj-pest-vert-tema3
-                  h4.txt-tarj-pest-vert-tema3 Intervención ante la amenaza
+                
+                  h4.txt-tarj-pest-vert-tema3 Factor de riesgo - Amenaza
 
-                  ul.lista-ul
+                  ul.lista-ul.txt-tarj-pest-vert-tema3
                     li 
                       i.lista-ul__vineta
                       | Recuperación geomorfológica de zonas de interés como canteras, humedales, ciénagas, ríos y quebradas. 
@@ -103,10 +103,10 @@
    
    
               .tarjeta.fondo-tarj-pest-vert-tema3.clr-paleYellow.p-4(titulo="Banco de proyectos en reducción del riesgo")
-                .txt-tarj-pest-vert-tema3
-                  h4.txt-tarj-pest-vert-tema3 Banco de proyectos en reducción del riesgo
+                
+                  h4.txt-tarj-pest-vert-tema3 Factor de riesgo - Amenaza / Vulnerabilidad
                   
-                  ul.lista-ul
+                  ul.lista-ul.txt-tarj-pest-vert-tema3
                     li 
                       i.lista-ul__vineta
                       | Construcción de jarillones.
@@ -122,10 +122,10 @@
 
 
               .tarjeta.fondo-tarj-pest-vert-tema3.clr-paleYellow.p-4(titulo="Programa de Gestión Integral del Riesgo - Amenaza Volcánica Galeras (PGIR-AVG)")
-                .txt-tarj-pest-vert-tema3
-                  h4.txt-tarj-pest-vert-tema3 Programa de Gestión Integral del Riesgo - Amenaza Volcánica Galeras (PGIR-AVG)
+                
+                  h4.txt-tarj-pest-vert-tema3 Factor de riesgo - Amenaza / Vulnerabilidad
                   
-                  ul.lista-ul
+                  ul.lista-ul.txt-tarj-pest-vert-tema3
                     li 
                       i.lista-ul__vineta
                       | Reasentamiento de las poblaciones en zona de amenaza volcánica.
@@ -198,7 +198,7 @@
                   img(src='@/assets/curso/temas/img1-tarj-conect-tema3.png', alt='Texto que describa la imagen')
               
             h4.text-center Primera línea de acción
-            p.text-center Primera línea de acción
+            p.text-center Instrumentos de planificación
           
           .col-md.tarjeta.color-primario.text-white.p-5
             .row.justify-content-center.mb-4
@@ -230,11 +230,11 @@
 
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="33%" y="80%" numero="2")
             //.h5.mb-2 titulo
-            p El Plan Municipal para la Gestión del Riesgo de Desastres.
+            p Planes de Ordenamiento Territorial. 
 
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="50%" y="80%" numero="3")
             //.h5.mb-2 titulo
-            p Planes de Ordenamiento Territorial.
+            p Plan Departamental de Gestión del Riesgo.
           
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="68%" y="80%" numero="4")
             //.h5.mb-2 titulo
@@ -242,7 +242,7 @@
 
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="85%" y="80%" numero="5")
             //.h5.mb-2 titulo
-            p Plan Departamental de Gestión del Riesgo.
+            p El Plan Municipal para la Gestión del Riesgo de Desastres.
 
     br
     separador

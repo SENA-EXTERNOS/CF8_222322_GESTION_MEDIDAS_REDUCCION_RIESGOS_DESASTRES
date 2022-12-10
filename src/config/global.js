@@ -66,19 +66,19 @@ export default {
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '',
+            numero: '3.1',
             titulo: 'Medidas correctivas',
             hash: 'medidas-correctivas',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '',
+            numero: '3.2',
             titulo: 'Medidas prospectivas',
             hash: 'medidas-prospectivas',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '',
+            numero: '3.3',
             titulo: 'Medidas estructurales y no estructurales',
             hash: 'medidas-estructurales-y-no-estructurales',
           },
@@ -246,7 +246,7 @@ export default {
     },
     {
       referencia:
-        'Unidad Nacional de Gestión del Riesgo de Desastres (UNGRD). (2018). Articulación de instrumentos de planificación para la gestión del riesgo de desastres. Bogotá D. C, Recuperado el 6 de octubre de 2022, de',
+        'Unidad Nacional de Gestión del Riesgo de Desastres (UNGRD). (2018). <em>Articulación de instrumentos de planificación para la gestión del riesgo de desastres.</em> Bogotá D. C, Recuperado el 6 de octubre de 2022, de',
       link:
         'https://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/20713/Articulacio%cc%81n_Instrumentos_Planificacio%cc%81n2018.pdf?sequence=14&isAllowed=y',
     },
