@@ -162,7 +162,7 @@
         .col-lg-10 
 
           .cajon.fondo-cajon-color-tema1.color-primario.p-4
-              p Trazado el camino a seguir, los instrumentos de planificación se constituyen como la gestión tangible del riesgo de desastres, pues aumentan las opciones de hallar una solución a las problemáticas asociadas a los desastres: la pérdida de vidas humanas, de los medios productivos y de subsistencia, así como la afectación de los bienes estructurales, socioculturales y ambientales.
+              p.p-3 Trazado el camino a seguir, los instrumentos de planificación se constituyen como la gestión tangible del riesgo de desastres, pues aumentan las opciones de hallar una solución a las problemáticas asociadas a los desastres: la pérdida de vidas humanas, de los medios productivos y de subsistencia, así como la afectación de los bienes estructurales, socioculturales y ambientales.
 
     br
     br
@@ -200,8 +200,8 @@
 
     .row.container.justify-content-around.align-items-center
         .row 
-          .col-lg-10.cajon-color2-tema1
-              .cajon.fondo-cajon-color-tema1.color-primario.p-4
+          .col-lg-10
+              .cajon.fondo-cajon2-color-tema1.color-primario.p-4
                   p Los POT se estipulan como un rango de visión a largo plazo mediante la consolidación de modelos de ocupación sostenibles que permitan el funcionamiento de los medios de subsistencia y la infraestructura sin crear condiciones de riesgo a futuro ni incrementar las ya existentes. Este instrumento se fundamenta en los siguientes marcos normativos: 
         
 

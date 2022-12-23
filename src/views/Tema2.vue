@@ -79,7 +79,7 @@
               figure(data-aos="zoom-in")
                 img(src="@/assets/curso/temas/img-acordeon1-tema2.png", alt="alt").img400.m-auto
 
-    p De acuerdo con la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), en su publicación Guía metodológica para la formulación y actualización de planes municipales de gestión del riesgo de desastres se articulan seis pasos fundamentales que se deben de tener en cuenta al momento de integrar los procesos de gestión del riesgo en la planificación territorial (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021):     
+    p De acuerdo con la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), en su publicación <em>Guía metodológica para la formulación</em> y actualización de planes municipales de gestión del riesgo de desastres se articulan seis pasos fundamentales que se deben de tener en cuenta al momento de integrar los procesos de gestión del riesgo en la planificación territorial (Unidad Nacional para la Gestión del Riesgo de Desastres, 2021):     
     
 
     .row.container.tarjeta.tarjeta--blanca.p-2.p-md-3
