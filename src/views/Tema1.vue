@@ -162,7 +162,7 @@
         .col-lg-10 
 
           .cajon.fondo-cajon-color-tema1.color-primario.p-4
-              p.p-3 Trazado el camino a seguir, los instrumentos de planificación se constituyen como la gestión tangible del riesgo de desastres, pues aumentan las opciones de hallar una solución a las problemáticas asociadas a los desastres: la pérdida de vidas humanas, de los medios productivos y de subsistencia, así como la afectación de los bienes estructurales, socioculturales y ambientales.
+              p.txt-trazado-camino.p-2 Trazado el camino a seguir, los instrumentos de planificación se constituyen como la gestión tangible del riesgo de desastres, pues aumentan las opciones de hallar una solución a las problemáticas asociadas a los desastres: la pérdida de vidas humanas, de los medios productivos y de subsistencia, así como la afectación de los bienes estructurales, socioculturales y ambientales.
 
     br
     br
