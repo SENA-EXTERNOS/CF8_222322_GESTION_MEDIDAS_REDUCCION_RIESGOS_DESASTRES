@@ -221,7 +221,7 @@
         
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/img2-pto-caliente-tema3.png', alt='Texto que describa la imagen').img-tarj-pto-caliente-tema3
+              img(src='@/assets/curso/temas/img-corr-pto-caliente-tema3.png', alt='Texto que describa la imagen').img-tarj-pto-caliente-tema3
               //figcaption Leyenda de la imagen
 
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="15%" y="80%" numero="1")
@@ -230,11 +230,13 @@
 
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="33%" y="80%" numero="2")
             //.h5.mb-2 titulo
-            p Planes de Ordenamiento Territorial. 
+            p El Plan Municipal para la Gestión del Riesgo de Desastres.
+            
 
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="50%" y="80%" numero="3")
             //.h5.mb-2 titulo
-            p Plan Departamental de Gestión del Riesgo.
+            p Planes de Ordenamiento Territorial. 
+            
           
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="68%" y="80%" numero="4")
             //.h5.mb-2 titulo
@@ -242,7 +244,8 @@
 
           .tarjeta.fondo-tarj-pto-caliente-tema3.p-3(x="85%" y="80%" numero="5")
             //.h5.mb-2 titulo
-            p El Plan Municipal para la Gestión del Riesgo de Desastres.
+            p Plan Departamental de Gestión del Riesgo.
+            
 
     br
     separador
